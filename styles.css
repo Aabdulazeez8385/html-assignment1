@@ -1,0 +1,195 @@
+/* Abdulazeez Abass Oluwatobi */
+/* 8948385 */
+
+/* Root element html */
+html {
+    font: 20px/1.6 Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Body styles */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: white;
+}
+
+/* Header and Footer styles */
+header, footer {
+    background: linear-gradient(to right, #3498db, #2c3e50);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+footer {
+    font-size: 0.8rem;
+    clear: both;
+}
+
+/* Main content styles */
+main {
+    float: left;
+    width: 70%;
+    padding: 1rem;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    padding: 1rem;
+    background-color: #f9f9f9;
+}
+
+/* Clear float after main and aside */
+footer {
+    clear: both;
+}
+
+/* Biography and Image sections */
+#bio {
+    float: left;
+    width: 60%;
+    padding-right: 1rem;
+}
+
+#figure {
+    float: right;
+    width: 40%;
+}
+
+/* Clear float after biography and image sections */
+#quote {
+    clear: both;
+}
+
+/* Headings styles */
+h1, h2, h3 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Quote styles */
+q {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #3498db;
+    border: 2px solid #3498db;
+    padding: 0.5rem;
+    display: block;
+    margin: 1rem 0;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Figure and Image styles */
+figure {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: #f9f9f9;
+    margin: 1rem 0;
+}
+
+figure img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+figcaption {
+    font-style: italic;
+    font-weight: bold;
+    color: #555;
+    margin-top: 0.5rem;
+}
+
+/* Video styles */
+iframe {
+    border: 2px solid #3498db;
+    max-width: 100%;
+}
+
+/* Aside styles */
+aside h2 {
+    color: #3498db;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 0.5rem;
+}
+
+aside a {
+    text-decoration: none;
+    color: #2c3e50;
+    line-height: 1.8;
+}
+
+aside a:hover {
+    color: #3498db;
+}
+
+/* Form styles */
+form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+form input,
+form textarea,
+form select,
+form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+form button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+form button:hover {
+    background-color: #2c3e50;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    main,
+    aside,
+    #bio,
+    #figure {
+        float: none;
+        width: 100%;
+    }
+
+    iframe {
+        height: 250px;
+    }
+}
